@@ -1,0 +1,86 @@
+﻿.hero_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 90px 60px 50px;
+  background: #ffffff;
+  box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.03),
+    0px 8px 24px -4px rgba(24, 39, 75, 0.02);
+  border-radius: 24px;
+  h1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #2c2d2e;
+  }
+  p {
+    margin-top: 24px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #2c2d2e;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .btn_container {
+    align-items: center;
+    display: flex;
+    margin-top: 24px;
+    .input_btn {
+      max-width: 361px;
+      min-width: 200px;
+      height: 56px;
+      background: #ffffff;
+      border: 1px solid #465efd;
+      border-radius: 16px 0px 0px 16px;
+    }
+    .search_btn {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      max-width: 165px;
+      min-width: 100px;
+      height: 56px;
+      background: #465efd;
+      border: 1px solid #465efd;
+      border-radius: 0px 16px 16px 0px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+  .first_section {
+    display: flex;
+  }
+  .second_section {
+    display: flex;
+    .section_photo {
+      width: 100%;
+      max-width: 500px;
+      min-width: 300px;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero_content {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
