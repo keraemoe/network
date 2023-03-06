@@ -1,8 +1,8 @@
 ﻿import React from 'react';
-import s from './header.module.scss'
-import logo from '../../assets/logo.png'
+import s from './Header.module.scss'
+import logo from '../../Assets/logo.png'
 import { slide as Menu } from 'react-burger-menu'
-import Sidebar from '../../ui/SideBar/sidebar';
+import Sidebar from '../../UI/SideBar/sidebar';
 
 const Header = () => {
     return (
@@ -23,7 +23,6 @@ const Header = () => {
                         <div className={s.burger}>
                             <Sidebar />
                         </div>
-                        <div>d</div>
                     </div>
                 </nav>
             </div>

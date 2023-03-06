@@ -1,8 +1,8 @@
 ﻿import React from 'react';
-import s from './services.module.scss'
+import s from './Services.module.scss'
 import { SearchOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
-import SectionPhoto from '../../assets/SectionPhoto.png'
+import SectionPhoto from '../../Assets/SectionPhoto.png'
 
 const Services = () => {
     return (
