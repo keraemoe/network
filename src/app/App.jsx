@@ -1,5 +1,5 @@
 import Home from "../pages/Home";
-import ParticlesContainer from "../UI/ParticlesBackground/ParticlesBackground";
+import ParticlesContainer from "../ui/ParticlesBackground/ParticlesBackground";
 
 function App() {
   return (
